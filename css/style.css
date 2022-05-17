@@ -1,3 +1,15 @@
-
+header {
+  width: 100%;
+}
+header .omf__heading {
+  display: flex;
+  justify-content: space-around;
+}
+header .omf__heading img {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 140px;
+}
 
 /*# sourceMappingURL=style.css.map */
