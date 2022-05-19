@@ -1,13 +1,12 @@
 header{
     width: 100%;
-    .omf__heading{
+    & h1{
         display: flex;
-        justify-content: space-around;
-        img{
-            display: flex; 
-            margin-top: 10px; 
-            margin-bottom: 10px;          
-            width: 140px;           
-        }
+        justify-content: center;
+        font-family: shrikhand;
+        font-weight: 500;
+        margin-bottom: 0;
+        padding-top: 10px;
+        font-size: 31px;
     }
 }

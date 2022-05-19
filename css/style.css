@@ -1,15 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Shrikhand&display=swap");
 header {
   width: 100%;
 }
-header .omf__heading {
+header h1 {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  font-family: shrikhand;
+  font-weight: 500;
+  margin-bottom: 0;
+  padding-top: 10px;
+  font-size: 31px;
 }
-header .omf__heading img {
-  display: flex;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  width: 140px;
+
+@media screen and (max-width: 768px) {
+  .area {
+    display: flex;
+    flex-direction: column;
+    background-color: #f6f6f6;
+    font-family: roboto;
+    font-size: 16px;
+    margin-top: 8px;
+  }
+  .area__locate {
+    display: flex;
+    flex-direction: row;
+    background-color: #eaeaea;
+    justify-content: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-right: 15px;
+  }
+  .area__locate__heading {
+    margin-left: 20px;
+  }
+  .area__heading {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+  }
+  .area__heading h2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 0;
+  }
+  .area__heading h3 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-weight: 400;
+    font-size: 18px;
+  }
+  .area__btn {
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    border-radius: 25px;
+    width: 215px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #FF79DA;
+    color: white;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
