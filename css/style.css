@@ -68,5 +68,50 @@ header h1 {
     color: white;
   }
 }
+@media screen and (max-width: 768px) {
+  .menu {
+    display: flex;
+    flex-direction: column;
+    font-family: roboto;
+  }
+  .menu__heading {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 40px;
+    margin-bottom: 30px;
+  }
+  .menu__list :hover {
+    background-color: #9356DC;
+  }
+  .menu__content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 17px;
+    margin-bottom: 25px;
+    border: 1px solid #f6f6f6;
+    box-shadow: 1px 1px 9px grey;
+    border-radius: 25px;
+    background-color: #f6f6f6;
+    padding-top: 21px;
+    padding-bottom: 21px;
+  }
+  .menu__content__dot {
+    font-size: 60%;
+    border: 1px solid #9356DC;
+    border-radius: 50%;
+    color: white;
+    background-color: #9356DC;
+    padding: 2px 5px 2px 5px;
+  }
+  .menu__content__icon {
+    margin-left: 23px;
+    color: grey;
+  }
+  .menu__content__text {
+    margin-left: 28px;
+    font-weight: 500;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
